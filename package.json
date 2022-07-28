@@ -1,0 +1,30 @@
+{
+  "name": "react-ts-zme3rs",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/graphql": "^14.2.1",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "graphiql": "^0.13.2",
+    "graphql": "0.13.2",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "punycode": "^2.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ts-graphql": "^6.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "latest"
+  },
+  "resolutions": {
+    "**/graphql": "14.3.1"
+  }
+}
